@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<div class="main__container">
+  <div class="wrapper">
+    <div *ngIf="router.url == '/'">
+    <div class="wrapper__description">
+      <h1>Магазин книг номер один на территории РФ!</h1>
+    </div>
+    <button class="button" routerLink="/books">Посмотреть список книг</button>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main__container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("src/assets/mainbook.jpg");
+}
+
+.wrapper {
+  background-color: transparent;
+  width: 90%;
+  min-height: 80vh;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  color: white;
+}
+
+.wrapper__description {
+  width: 40%;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.wrapper__preview img {
+  height: 100%;
+}
+
+.wrapper__button {
+  margin-bottom: 100px;
+  background-color: transparent;
+}
+
+.button {
+  background-color: #6034a9;
+  border: 1px solid rgba(27, 31, 35, .15);
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+
+}
+
+.navbar {
+  background-color: #6034a9;
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links {
+  margin-left: 100px;
+  background-color: rgb(56, 38, 94);
+}
+
+.logo {
+  margin-left: 100px;
+  background-color: inherit;
+  color: white;
+  font-size: 35px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.content__image {
+  height: 400px;
+  width: 400px;
+}
+
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #6034a9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div {
+  border-radius: 5px;
+  background-color: rgba(39,47,51, 0.1);
+  padding: 20px;
+}
+
+.item {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  background-color: transparent;
+}
+
+.item__content {
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  width: 1200px;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 0 0 5px 0 #0006;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+}
+
+.card h2, .card p {
+  margin: 0;
+}
+.card h5, h6 {
+  margin-left: 20px;
+}
+
+.card__pic {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.card__text {
+  display: grid;
+  gap: 20px;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}

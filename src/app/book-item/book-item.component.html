@@ -1,0 +1,12 @@
+<div class="item">
+  <img class="content__image" src="{{book.image}}" alt=""/>
+  <div class="item__content">
+    <h4>Название: {{book.name}}</h4>
+    <h4>Полное имя автора: {{book.authorFullName}}</h4>
+    <h4>Жанр: {{book.genre}}</h4>
+    <h4>Описание: {{book.description}}</h4>
+    <h4>Количество: {{book.count}}</h4>
+  </div>
+  <button routerLink="{{'/book-item/'+book.id+'/redact'}}" class="button" role="button">Редактировать</button>
+</div>
+<router-outlet></router-outlet>

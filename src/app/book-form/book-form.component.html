@@ -1,0 +1,21 @@
+<div class="form__container">
+  <form>
+    <label for="name">Название</label> <br>
+    <input type="text" id="name" name="name"  [(ngModel)]="book.name">
+    <br>
+    <label for="genre">Жанр</label> <br>
+    <input type="text" id="genre" name="genre" [(ngModel)]="book.genre">
+    <br>
+    <label for="authorFullName">Полное имя автора</label> <br>
+    <input type="text" id="authorFullName" name="authorFullName" [(ngModel)]="book.authorFullName">
+    <br>
+    <label for="count">Количество</label> <br>
+    <input type="text" id="count" name="count" placeholder="" [(ngModel)]="book.count">
+    <br>
+    <label for="image">Ссылка на изображение</label> <br>
+    <input type="text" id="image" name="image" [(ngModel)]="book.image">
+    <br>
+
+    <input type="submit" value="Отправить" (click)="sendData(book)">
+  </form>
+</div>
